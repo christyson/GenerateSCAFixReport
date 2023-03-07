@@ -51,7 +51,7 @@ def build_report(the_findings, csv=False, no_table=False):
 def main():
 
     parser = argparse.ArgumentParser(
-        description='This script builds a csv report with SCA findings and fix version and latest safe version.')
+        description='This script builds a csv report with SCA findings and their fix version and latest safe version.')
     parser.add_argument('-w', '--workspace_name', help='Works Space name to generate Issues for or by default it will do the whole organization',required=False)
     parser.add_argument('-c', '--csv', action='store_true', help='Set to save the output as a CSV file.', required=False)
     parser.add_argument('-nt', '--no_table', action='store_true', help='If selected a table will be output to the screen',required=False)
