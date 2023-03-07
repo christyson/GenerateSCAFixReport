@@ -27,7 +27,7 @@ Install dependencies:
 Arguments:
 *  -h, --help            show this help message and exit
 *  -w WORKSPACE_NAME, --workspace_name WORKSPACE_NAME
-*                        Works Space name to generate Issues for or by default it will do the whole organization
+*     Works Space name to generate Issues for or by default it will do the whole organization
 *  -c, --csv             Set to save the output as a CSV file.
 *  -nt, --no_table       If selected a table will be output to the screen
 
