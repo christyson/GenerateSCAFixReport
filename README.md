@@ -54,5 +54,3 @@ Both of these methods will work.
 
 Note: If you specify to create a csv then the file will be in the form SCA_Fix-{}.csv
 Where the {} is replaced with the time of the report.
-
-If the app is not found an error message will be printed.
