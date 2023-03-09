@@ -47,7 +47,7 @@ Otherwise you will need to set environment variables as follows:
 ```
 export VERACODE_API_KEY_ID=<YOUR_API_KEY_ID>
 export VERACODE_API_KEY_SECRET=<YOUR_API_KEY_SECRET>
-python generate_sbom.py -a <your app name>
+python  generate_SCA_FixReport.py -c
 ```
 
 Both of these methods will work.  
